@@ -9,7 +9,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #f0f0f0;
+            background-color: #f7ffff;
         }
         .horizontal-line {
             width: 100%; 
@@ -61,8 +61,9 @@
         .left-paragraph {
             text-align: left; 
             margin-top: 40px;
-            padding-left: 100px;
-           padding-right: 100px;
+          margin-bottom: 80px; 
+          padding-bottom: 40px;
+            padding-right: 200px;
           padding-top: 50px;
             background-color: #ffe8ff; 
             display: flex;
@@ -75,9 +76,46 @@
             margin-right: 0px; 
         }
         .sunny-image {
-            width: 500px; 
+            width: 1500px; 
             height: auto;
         }
+      .golden-image {
+            width: 1500px; 
+            height: auto;
+        }
+      .button-container {
+            position: relative;
+            text-align: center;
+            margin-bottom: 10pt; 
+        padding-bottom: 1000;
+            background-image: url('dogs.jpg'); 
+            background-size: 1000pt; /* Cover the entire container */
+            
+        }
+      
+      .book-now-button {
+    display: inline-block;
+    background-image: url('puppy.jpeg');
+    background-color: white; 
+    color: #ffe8ff; 
+    padding: 30px 100px; 
+        font-family: "Inter", sans-serif;
+    text-align: center;
+    text-decoration: none; 
+    font-size: 25pt; 
+    margin-left: 50%;
+        margin-bottom: 50pt; 
+    border-radius: 5px; 
+    transition: background-color 0.5s; 
+    border: 2px solid #3c55a5;
+        
+}
+
+.book-now-button:hover {
+    background-color: #2b417c; 
+    border-color: #2b417c; 
+}
+      
     </style>
 </head>
 <body>
@@ -96,9 +134,28 @@
         <div class="text-content">
             <p>Paws &amp Play is a farmhouse that has been renovated specifically for the dogs. We have 6 different cage-free lounges that we use to separate dogs based on size, energy, and/or temperament.</p>
           <br>
-            <p>Our layout allows us to place dogs together who are a good match, ensuring a fun and controlled experience for your pup! Each lounge is complete with couches, dog beds, blankets, chew toys, food, and water, all customized to your dog’s needs. We aim to recreate an in-home experience.</p>
+          <br> 
+            <p>Each lounge is equipped with couches, dog beds, blankets, chew toys, food, and water, all customized to your dog’s needs. The rooms have been cleared out and made dog-friendly, including furniture, TVs, and music. </p>
+          
+           <br>
+          <br>
+            <p>We aim to create an in-home environment for the dogs staying with us. We also prioritize plenty of outdoor activity, so your pup will get lots of exercise and have the chance to make new furry friends. </p>
         </div>
+      <div>
+        
         <img class="sunny-image" src="sunnyPic.jpg" alt="Cocker spaniel puppy outside">
-    </div> 
+      <br>
+      <img class="golden-image" src="goldenPuppy.webp" alt="golden puppy playing with and chewing a toy on a couch">
+    </div>
+      </div> 
+  
+   <div class="button-container">
+    <div class="button-container">
+    <a href="book-now.html" class="book-now-button">Book Now</a>
+</div>
+  </div>
+  
+  <img src="footer3.jpg" alt="footer with phone number, address, socials, and phone number">
+ 
 </body>
 </html>
